@@ -37,11 +37,33 @@ class GameViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         present(imagePicker, animated: true, completion: nil)
     }
     
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+       let gameImage = info[UIImagePickerControllerOriginalImage] as! UIImage
+        
+        image.image = gameImage
+        
+        imagePicker.dismiss(animated: true, completion: nil)
+    }
+    
 
     @IBAction func CameraTapped(_ sender: Any) {
+        imagePicker.sourceType = .camera
+        
+        present(imagePicker, animated: true, completion: nil)
     }
 
     @IBAction func addTapped(_ sender: Any) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let game =  Game(context: context)
+        game.title = titleTxtField.text
+        game.consola = consolaTxtField.text
+        game.picture = UIImagePNGRepresentation(image.image!)! as NSData
+        
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        
+        navigationController?.popViewController(animated: true)
+        
     }
     
     
