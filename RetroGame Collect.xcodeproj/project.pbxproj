@@ -13,6 +13,7 @@
 		BE8552001F2B780F0011813A /* RetroGame_Collect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE8551FE1F2B780F0011813A /* RetroGame_Collect.xcdatamodeld */; };
 		BE8552021F2B780F0011813A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8552011F2B780F0011813A /* Assets.xcassets */; };
 		BE8552051F2B780F0011813A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8552031F2B780F0011813A /* LaunchScreen.storyboard */; };
+		BE85520D1F2B7C040011813A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85520C1F2B7C040011813A /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BE8552011F2B780F0011813A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE8552041F2B780F0011813A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE8552061F2B780F0011813A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE85520C1F2B7C040011813A /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				BE8551F71F2B780F0011813A /* AppDelegate.swift */,
 				BE8551F91F2B780F0011813A /* ViewController.swift */,
+				BE85520C1F2B7C040011813A /* GameViewController.swift */,
 				BE8551FB1F2B780F0011813A /* Main.storyboard */,
 				BE8552011F2B780F0011813A /* Assets.xcassets */,
 				BE8552031F2B780F0011813A /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE85520D1F2B7C040011813A /* GameViewController.swift in Sources */,
 				BE8551FA1F2B780F0011813A /* ViewController.swift in Sources */,
 				BE8551F81F2B780F0011813A /* AppDelegate.swift in Sources */,
 				BE8552001F2B780F0011813A /* RetroGame_Collect.xcdatamodeld in Sources */,
