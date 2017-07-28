@@ -97,6 +97,9 @@
                                     <constraint firstAttribute="height" constant="30" id="Vac-h7-q9Y"/>
                                 </constraints>
                                 <state key="normal" title="Delete"/>
+                                <connections>
+                                    <action selector="deleteTapped:" destination="BDF-iN-m2z" eventType="touchUpInside" id="dxY-eu-0zY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

@@ -66,18 +66,38 @@ class GameViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
 
     @IBAction func addTapped(_ sender: Any) {
+        
+        if game != nil {
+            game?.title = titleTxtField.text
+            game?.consola = consolaTxtField.text
+            game?.picture = UIImagePNGRepresentation(image.image!)! as NSData
+            
+            (UIApplication.shared.delegate as! AppDelegate).saveContext()
+            
+            navigationController?.popViewController(animated: true)
+
+        } else {
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            let game =  Game(context: context)
+            game.title = titleTxtField.text
+            game.consola = consolaTxtField.text
+            game.picture = UIImagePNGRepresentation(image.image!)! as NSData
+            
+            (UIApplication.shared.delegate as! AppDelegate).saveContext()
+            
+            navigationController?.popViewController(animated: true)
+        }
+        
+    }
+    
+    @IBAction func deleteTapped(_ sender: Any) {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-        
-        let game =  Game(context: context)
-        game.title = titleTxtField.text
-        game.consola = consolaTxtField.text
-        game.picture = UIImagePNGRepresentation(image.image!)! as NSData
-        
+        context.delete(game!)
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
         
         navigationController?.popViewController(animated: true)
-        
     }
+    
     
     
 }
