@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE8551F81F2B780F0011813A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8551F71F2B780F0011813A /* AppDelegate.swift */; };
+		BE8551FA1F2B780F0011813A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8551F91F2B780F0011813A /* ViewController.swift */; };
+		BE8551FD1F2B780F0011813A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8551FB1F2B780F0011813A /* Main.storyboard */; };
+		BE8552001F2B780F0011813A /* RetroGame_Collect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE8551FE1F2B780F0011813A /* RetroGame_Collect.xcdatamodeld */; };
+		BE8552021F2B780F0011813A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8552011F2B780F0011813A /* Assets.xcassets */; };
+		BE8552051F2B780F0011813A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8552031F2B780F0011813A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE8551F41F2B780F0011813A /* RetroGame Collect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RetroGame Collect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8551F71F2B780F0011813A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE8551F91F2B780F0011813A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE8551FC1F2B780F0011813A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE8551FF1F2B780F0011813A /* RetroGame_Collect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetroGame_Collect.xcdatamodel; sourceTree = "<group>"; };
+		BE8552011F2B780F0011813A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE8552041F2B780F0011813A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE8552061F2B780F0011813A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE8551F11F2B780F0011813A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE8551EB1F2B780F0011813A = {
+			isa = PBXGroup;
+			children = (
+				BE8551F61F2B780F0011813A /* RetroGame Collect */,
+				BE8551F51F2B780F0011813A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE8551F51F2B780F0011813A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE8551F41F2B780F0011813A /* RetroGame Collect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8551F61F2B780F0011813A /* RetroGame Collect */ = {
+			isa = PBXGroup;
+			children = (
+				BE8551F71F2B780F0011813A /* AppDelegate.swift */,
+				BE8551F91F2B780F0011813A /* ViewController.swift */,
+				BE8551FB1F2B780F0011813A /* Main.storyboard */,
+				BE8552011F2B780F0011813A /* Assets.xcassets */,
+				BE8552031F2B780F0011813A /* LaunchScreen.storyboard */,
+				BE8552061F2B780F0011813A /* Info.plist */,
+				BE8551FE1F2B780F0011813A /* RetroGame_Collect.xcdatamodeld */,
+			);
+			path = "RetroGame Collect";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE8551F31F2B780F0011813A /* RetroGame Collect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8552091F2B780F0011813A /* Build configuration list for PBXNativeTarget "RetroGame Collect" */;
+			buildPhases = (
+				BE8551F01F2B780F0011813A /* Sources */,
+				BE8551F11F2B780F0011813A /* Frameworks */,
+				BE8551F21F2B780F0011813A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RetroGame Collect";
+			productName = "RetroGame Collect";
+			productReference = BE8551F41F2B780F0011813A /* RetroGame Collect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE8551EC1F2B780F0011813A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pachuca Inc.";
+				TargetAttributes = {
+					BE8551F31F2B780F0011813A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = E2QK468QU7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE8551EF1F2B780F0011813A /* Build configuration list for PBXProject "RetroGame Collect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE8551EB1F2B780F0011813A;
+			productRefGroup = BE8551F51F2B780F0011813A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE8551F31F2B780F0011813A /* RetroGame Collect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE8551F21F2B780F0011813A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8552051F2B780F0011813A /* LaunchScreen.storyboard in Resources */,
+				BE8552021F2B780F0011813A /* Assets.xcassets in Resources */,
+				BE8551FD1F2B780F0011813A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE8551F01F2B780F0011813A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8551FA1F2B780F0011813A /* ViewController.swift in Sources */,
+				BE8551F81F2B780F0011813A /* AppDelegate.swift in Sources */,
+				BE8552001F2B780F0011813A /* RetroGame_Collect.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE8551FB1F2B780F0011813A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8551FC1F2B780F0011813A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE8552031F2B780F0011813A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE8552041F2B780F0011813A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE8552071F2B780F0011813A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE8552081F2B780F0011813A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE85520A1F2B780F0011813A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E2QK468QU7;
+				INFOPLIST_FILE = "RetroGame Collect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pachucainc.RetroGame-Collect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE85520B1F2B780F0011813A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E2QK468QU7;
+				INFOPLIST_FILE = "RetroGame Collect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pachucainc.RetroGame-Collect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE8551EF1F2B780F0011813A /* Build configuration list for PBXProject "RetroGame Collect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8552071F2B780F0011813A /* Debug */,
+				BE8552081F2B780F0011813A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8552091F2B780F0011813A /* Build configuration list for PBXNativeTarget "RetroGame Collect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE85520A1F2B780F0011813A /* Debug */,
+				BE85520B1F2B780F0011813A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE8551FE1F2B780F0011813A /* RetroGame_Collect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE8551FF1F2B780F0011813A /* RetroGame_Collect.xcdatamodel */,
+			);
+			currentVersion = BE8551FF1F2B780F0011813A /* RetroGame_Collect.xcdatamodel */;
+			path = RetroGame_Collect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE8551EC1F2B780F0011813A /* Project object */;
+}
