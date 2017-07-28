@@ -13,14 +13,27 @@ class GameViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var titleTxtField: UITextField!
     @IBOutlet weak var consolaTxtField: UITextField!
+    @IBOutlet weak var add: UIButton!
+    @IBOutlet weak var deleteBtn: UIButton!
     
     var imagePicker = UIImagePickerController()
+    var game : Game? = nil
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         imagePicker.delegate = self
+        
+        if game != nil {
+            titleTxtField.text = game?.title
+            consolaTxtField.text = game?.consola
+            image.image = UIImage(data: game!.picture! as Data)
+            add.setTitle("Update", for: .normal)
+            deleteBtn.isHidden = false
+        } else {
+            print("no Game!")
+        }
         
 
         // Do any additional setup after loading the view.

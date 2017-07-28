@@ -39,7 +39,7 @@
                     <navigationItem key="navigationItem" id="3NJ-TP-5Wc">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="B2g-sk-gfJ">
                             <connections>
-                                <segue destination="BDF-iN-m2z" kind="show" id="p8Z-SE-CC4"/>
+                                <segue destination="BDF-iN-m2z" kind="show" identifier="gameSegue" id="p8Z-SE-CC4"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -91,10 +91,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G27-IO-6N7">
+                                <rect key="frame" x="164.5" y="411" width="45" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Vac-h7-q9Y"/>
+                                </constraints>
+                                <state key="normal" title="Delete"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="JjZ-Ta-zAm" firstAttribute="centerX" secondItem="gQQ-V8-Mee" secondAttribute="centerX" id="06o-OQ-y9j"/>
+                            <constraint firstItem="G27-IO-6N7" firstAttribute="top" secondItem="2oB-nI-bWQ" secondAttribute="bottom" constant="8" id="4cI-aa-zSC"/>
                             <constraint firstItem="liW-lv-45Q" firstAttribute="top" secondItem="u7n-JQ-NSk" secondAttribute="bottom" constant="14" id="88S-1x-r9G"/>
                             <constraint firstItem="u7n-JQ-NSk" firstAttribute="leading" secondItem="gQQ-V8-Mee" secondAttribute="leadingMargin" constant="48" id="8cm-lu-7BG"/>
                             <constraint firstItem="JjZ-Ta-zAm" firstAttribute="top" secondItem="EeE-ds-xdy" secondAttribute="bottom" constant="46" id="CDP-mw-mjO"/>
@@ -102,6 +110,7 @@
                             <constraint firstItem="u7n-JQ-NSk" firstAttribute="leading" secondItem="liW-lv-45Q" secondAttribute="leading" id="Ere-gv-JYw"/>
                             <constraint firstItem="2oB-nI-bWQ" firstAttribute="centerX" secondItem="gQQ-V8-Mee" secondAttribute="centerX" id="ID3-yZ-acm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JjZ-Ta-zAm" secondAttribute="trailing" constant="52" id="Ib7-Ne-DVw"/>
+                            <constraint firstItem="G27-IO-6N7" firstAttribute="centerX" secondItem="gQQ-V8-Mee" secondAttribute="centerX" id="Yyr-DH-Z13"/>
                             <constraint firstItem="u7n-JQ-NSk" firstAttribute="centerX" secondItem="2oB-nI-bWQ" secondAttribute="centerX" id="fpR-qq-pH6"/>
                             <constraint firstItem="u7n-JQ-NSk" firstAttribute="top" secondItem="JjZ-Ta-zAm" secondAttribute="bottom" constant="36" id="gqd-AD-X0W"/>
                             <constraint firstItem="u7n-JQ-NSk" firstAttribute="trailing" secondItem="liW-lv-45Q" secondAttribute="trailing" id="qgD-yF-Ywg"/>
@@ -123,7 +132,9 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="add" destination="2oB-nI-bWQ" id="xoJ-I3-nZ8"/>
                         <outlet property="consolaTxtField" destination="liW-lv-45Q" id="zIu-d0-CrK"/>
+                        <outlet property="deleteBtn" destination="G27-IO-6N7" id="Clh-db-s8q"/>
                         <outlet property="image" destination="JjZ-Ta-zAm" id="bcJ-cK-hpk"/>
                         <outlet property="titleTxtField" destination="u7n-JQ-NSk" id="ZUh-II-whY"/>
                     </connections>
